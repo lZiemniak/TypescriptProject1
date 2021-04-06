@@ -1,4 +1,8 @@
-export class Pokemons{
+export interface IPokemons{
+    name:string;
+}
+
+export class Pokemons implements IPokemons{
     name:string;
 
 
